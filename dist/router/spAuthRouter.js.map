@@ -1,0 +1,1 @@
+{"version":3,"file":"spAuthRouter.js","sourceRoot":"","sources":["../../router/spAuthRouter.ts"],"names":[],"mappings":";;AAAA,qCAAiC;AACjC,iDAAsD;AAEtD,MAAM,YAAY,GAAG,IAAA,gBAAM,GAAE,CAAA;AAE7B,YAAY,CAAC,KAAK,CAAC,QAAQ,CAAC,CAAC,IAAI,CAAC,cAAK,CAAC,CAAA;AACxC,YAAY,CAAC,KAAK,CAAC,UAAU,CAAC,CAAC,IAAI,CAAC,gBAAO,CAAC,CAAA;AAE5C,kBAAe,YAAY,CAAA"}
