@@ -25,7 +25,7 @@ export const login = async (req: Request, res: Response) => {
         res.send({
             accessToken: data.body.access_token,
             refreshToken: data.body.refresh_token,
-            expiresIn: data.body.expires_in,
+            expiresIn: data.body.expires_in * 1000 + Date.now(),
         })
     }).catch(err => {
         res.status(400).send(err)
