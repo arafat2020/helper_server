@@ -45,7 +45,7 @@ const refresh = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     spApi.refreshAccessToken().then(data => {
         res.send({
             accessToken: data.body.access_token,
-            expiresIn: data.body.expires_in,
+            expiresIn: data.body.expires_in * 1000 + Date.now(),
             refreshToken: data.body.refresh_token ? data.body.refresh_token : refreshToken
         });
     }).catch(err => {
